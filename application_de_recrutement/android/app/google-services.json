@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158104651494",
+    "project_id": "recrutement-9cdab",
+    "storage_bucket": "recrutement-9cdab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158104651494:android:db69b0ae246f7190a09d27",
+        "android_client_info": {
+          "package_name": "com.example.application_de_recrutement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNfo_mkYQRRMvkTdLxGANJ86Vi969w01o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+# Node
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+
+# Uploads
+uploads/
+
+# IDEs
+.vscode/
+.idea/
+*.iml

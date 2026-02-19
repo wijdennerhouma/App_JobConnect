@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: nestjs_api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      DB_URI: "mongodb+srv://wejden:wij*@jobconnect.xxofqq3.mongodb.net/jobconnect?retryWrites=true&w=majority"
+      JWT_SECRET: dev_secret_change_me
+      JWT_EXPIRE: 7d
+    networks:
+      - nestjs-network
+
+networks:
+  nestjs-network:
+    driver: bridge

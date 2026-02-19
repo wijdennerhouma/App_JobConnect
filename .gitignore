@@ -1,0 +1,47 @@
+# ============ JobConnect – Root .gitignore ============
+
+# IDEs & editors
+.vscode/
+.idea/
+*.iml
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Environment & secrets (ne jamais commiter)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+firebase-*.json
+!firebase_options.dart
+
+# Flutter (build & tools)
+application_de_recrutement/.dart_tool/
+application_de_recrutement/build/
+application_de_recrutement/.pub-cache/
+application_de_recrutement/.packages
+application_de_recrutement/*.iml
+
+# Backend Node / NestJS
+recruitment-app-backend-main/node_modules/
+recruitment-app-backend-main/dist/
+recruitment-app-backend-main/uploads/
+recruitment-app-backend-main/npm-debug.log
+recruitment-app-backend-main/yarn-error.log
+recruitment-app-backend-main/.env
+
+# Docker (optionnel)
+docker-compose.override.yml
+*.override.yml
