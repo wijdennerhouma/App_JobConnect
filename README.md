@@ -84,4 +84,4 @@ Ce projet est sous licence MIT. N'hésitez pas à l'utiliser et à l'améliorer.
 
 ---
 
-*Développé avec ❤️ par [Votre Nom / Équipe]*
+*Développé avec ❤️ par Wijden Rhouma*
